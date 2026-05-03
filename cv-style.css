@@ -1,0 +1,227 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Calibri, 'Segoe UI', Arial, sans-serif;
+    line-height: 1.1;
+    color: #333;
+    background-color: #f5f5f5;
+    padding: 10px;
+}
+
+.container {
+    width: 210mm;
+    max-width: 210mm;
+    min-height: 297mm;
+    margin: 0 auto;
+    background-color: white;
+    padding: 0;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Dark Header Bar */
+.header-bar {
+    background-color: #3a3a3a;
+    height: 12mm;
+    width: 100%;
+}
+
+/* Header Section */
+header {
+    text-align: center;
+    padding: 8mm 12mm 7mm 12mm;
+}
+
+h1 {
+    font-size: 20pt;
+    font-weight: bold;
+    letter-spacing: 0.5px;
+    color: #000;
+    margin-bottom: 4px;
+}
+
+.contact-info {
+    font-size: 10.5pt;
+    color: #333;
+    line-height: 1.2;
+}
+
+.contact-info a {
+    color: #0066cc;
+    text-decoration: none;
+}
+
+.contact-info a:hover {
+    text-decoration: underline;
+}
+
+.contact-info i {
+    color: #0066cc;
+}
+
+/* Section Styling */
+section {
+    padding: 0 12mm;
+    margin-top: 6pt;
+}
+
+h2 {
+    font-size: 14pt;
+    font-weight: bold;
+    color: #000;
+    text-transform: uppercase;
+    margin-bottom: 2pt;
+    padding-bottom: 2px;
+    border-bottom: 2px solid #000;
+}
+
+/* Summary */
+.summary-text {
+    font-size: 10.5pt;
+    line-height: 1.15;
+    color: #333;
+    text-align: left;
+    margin-top: 1pt;
+}
+
+/* Job/Experience Styling */
+.job {
+    margin-bottom: 3pt;
+}
+
+.job-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 1pt;
+}
+
+.job-title strong {
+    font-size: 12pt;
+    font-weight: bold;
+    color: #000;
+}
+
+.company {
+    font-size: 10.5pt;
+    color: #333;
+    font-weight: normal;
+    margin-top: 1px;
+}
+
+.job-dates {
+    font-size: 10.5pt;
+    color: #333;
+    font-style: normal;
+    white-space: nowrap;
+}
+
+/* Lists */
+ul {
+    margin-left: 18px;
+    margin-top: 0;
+}
+
+li {
+    font-size: 10.5pt;
+    color: #333;
+    margin-bottom: 0.5pt;
+    line-height: 1.15;
+}
+
+/* Tech Stack */
+.tech-stack {
+    font-size: 10.5pt;
+    color: #333;
+    line-height: 1.15;
+    margin-top: 1pt;
+}
+
+/* Projects */
+.project {
+    margin-bottom: 2pt;
+}
+
+.project h3 {
+    font-size: 12pt;
+    font-weight: bold;
+    color: #000;
+    margin-bottom: 0.5pt;
+}
+
+.project p {
+    font-size: 10.5pt;
+    color: #333;
+    line-height: 1.15;
+}
+
+/* Skills Grid */
+.skills-grid {
+    margin-top: 1pt;
+}
+
+.skills-grid ul {
+    margin-left: 18px;
+    margin-top: 0;
+}
+
+.skills-grid li {
+    font-size: 10.5pt;
+    margin-bottom: 0.5pt;
+    line-height: 1.15;
+}
+
+/* Education */
+.education {
+    margin-top: 1pt;
+}
+
+.education-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.degree strong {
+    font-size: 12pt;
+    font-weight: bold;
+    color: #000;
+}
+
+.institution {
+    font-size: 10.5pt;
+    color: #333;
+    font-weight: normal;
+    margin-top: 1px;
+}
+
+.education-dates {
+    font-size: 10.5pt;
+    color: #333;
+    font-style: normal;
+}
+
+/* Print Styles */
+@media print {
+    @page {
+        size: A4;
+        margin: 0;
+    }
+
+    body {
+        background-color: white;
+        padding: 0;
+        margin: 0;
+    }
+
+    .container {
+        width: 210mm;
+        max-width: 210mm;
+        box-shadow: none;
+        margin: 0;
+        padding: 0;
+    }
+}

@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shubham Sharma - Resume</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+    <div class="container">
+        <!-- Header Section -->
+        <header>
+            <h1>Shubham Sharma</h1>
+            <p class="subtitle">Software Engineer</p>
+            <p class="location"><i class="fas fa-map-marker-alt"></i> Mohali, India</p>
+        </header>
+
+        <!-- Contact Section -->
+        <div class="contact-bar">
+            <a href="tel:+917347630776" class="contact-item">
+                <i class="fas fa-phone"></i> 7347630776
+            </a>
+            <a href="mailto:shubham49412@gmail.com" class="contact-item">
+                <i class="fas fa-envelope"></i> shubham49412@gmail.com
+            </a>
+            <a href="https://linkedin.com/in/doubleunderscore" target="_blank" class="contact-item">
+                <i class="fab fa-linkedin"></i> linkedin.com/in/doubleunderscore
+            </a>
+            <a href="https://github.com/Shubham0997" target="_blank" class="contact-item">
+                <i class="fab fa-github"></i> github.com/Shubham0997
+            </a>
+        </div>
+
+        <!-- Professional Summary -->
+        <section class="professional-summary">
+            <h2>PROFESSIONAL SUMMARY</h2>
+            <p>Software Engineer with 4 years of experience at Paymentus (NYSE: PAY), a US-listed fintech product
+                company. Specialized in developing robust backend systems and scalable microservices using Java and
+                Node.js. Proven ownership of production-grade releases, infrastructure delivery, and real-time
+                debugging. Recently focused on building AI-integrated automation tools like STR generators and
+                retrieval-based assistants to accelerate engineering workflows.</p>
+        </section>
+
+        <!-- Main Content -->
+        <div class="main-content">
+            <!-- Left Column -->
+            <div class="left-column">
+                <!-- Education -->
+                <section>
+                    <h2>EDUCATION</h2>
+
+                    <div class="item">
+                        <h3>Bachelor of Technology (B.Tech), Computer Science Engineering</h3>
+                        <p class="institution">Jaypee University of Information Technology</p>
+                        <p class="date">08/2019 - 05/2022</p>
+                        <p class="score">CGPA: 8.4/10</p>
+                    </div>
+
+                    <div class="item">
+                        <h3>Diploma in Computer Engineering</h3>
+                        <p class="institution">Government Polytechnic Hamirpur</p>
+                        <p class="date">06/2016 - 05/2019</p>
+                        <p class="score">CGPA: 7.4/10</p>
+                    </div>
+                </section>
+
+                <!-- Experience -->
+                <section>
+                    <h2>EXPERIENCE</h2>
+
+                    <div class="item">
+                        <h3>Interim Engineering Intern - Software <a href="#" class="external-link"><i
+                                    class="fas fa-external-link-alt"></i></a></h3>
+                        <p class="company">Qualcomm</p>
+                        <p class="date">05/2021 - 07/2021</p>
+                        <p class="description">A multinational corporation known for wireless tech & innovation</p>
+                        <ul>
+                            <li>Developed a debugging tool to enhance the teams performance for daily issue triaging
+                            </li>
+                            <li>Targeted to be used by modern test teams</li>
+                            <li>Technologies used: Python - Bokeh, Git, Jenkins</li>
+                        </ul>
+                    </div>
+
+                    <div class="item">
+                        <h3>Back-end Developer</h3>
+                        <p class="company">Comunev <a href="#" class="external-link"><i
+                                    class="fas fa-external-link-alt"></i></a></p>
+                        <p class="date">06/2020 - 09/2020</p>
+                        <p class="description">A tech and social media platform for like-minded people to connect</p>
+                        <ul>
+                            <li>Implemented matchmaking algorithm from scratch</li>
+                            <li>Added back-end services in the application to modify server database</li>
+                            <li>Technologies used: Node.js, MongoDB, Angular, ML</li>
+                        </ul>
+                    </div>
+
+                    <div class="item">
+                        <h3>Organizer</h3>
+                        <p class="company">HackVerse NITK <a href="#" class="external-link"><i
+                                    class="fas fa-external-link-alt"></i></a></p>
+                        <p class="date">11/2019 - 1/2020</p>
+                        <ul>
+                            <li>Member of the organizing team and the Content Coordinator of the largest
+                                student-organized hackathon in south India</li>
+                        </ul>
+                    </div>
+                </section>
+
+                <!-- Competitions -->
+                <section>
+                    <h2>COMPETITIONS</h2>
+
+                    <div class="item">
+                        <h3>Hash Code Google (2021) <a href="#" class="external-link"><i
+                                    class="fas fa-external-link-alt"></i></a></h3>
+                        <p class="achievement-text">All India rank 847 and global rank 3137 in Google Hash Code 2021</p>
+                    </div>
+
+                    <div class="item">
+                        <h3>Online Hackathon Festival (OHF) (2020) <a href="#" class="external-link"><i
+                                    class="fas fa-external-link-alt"></i></a></h3>
+                        <p class="achievement-text">Ranked 78th (out of 6500+ teams), conducted by various institutes
+                        </p>
+                    </div>
+
+                    <div class="item">
+                        <h3>APSCRIPT (IEEE APSIT) (2020)</h3>
+                        <p class="achievement-text">Finalist for building a CNN based model that analyzes user sentiment
+                            from tweets</p>
+                    </div>
+                </section>
+            </div>
+
+            <!-- Right Column -->
+            <div class="right-column">
+                <!-- Relevant Courses -->
+                <section>
+                    <h2>RELEVANT COURSES</h2>
+                    <div class="two-column-list">
+                        <div>
+                            <p>Data Structures & Algorithm</p>
+                            <p>Operating Systems</p>
+                            <p>Machine Learning</p>
+                            <p>Object Oriented Programming</p>
+                        </div>
+                        <div>
+                            <p>Computer Networking</p>
+                            <p>Compiler Design</p>
+                            <p>Cryptography</p>
+                            <p>High Performance Computing</p>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- Selected Projects -->
+                <section>
+                    <h2>SELECTED PROJECTS</h2>
+
+                    <div class="item">
+                        <h3>AI-Powered "Steps to Reproduce" (STR) Generator</h3>
+                        <p class="tech-stack">Python, Claude 4.5 (Vertex AI), GPT-4.1</p>
+                        <ul>
+                            <li>Designed a two-stage system to convert server logs into Jira-ready "Steps to Reproduce"
+                                bug reports.</li>
+                            <li>Stage 1 (Reasoning Engine): Used Claude to track user actions, even across tabs and race
+                                conditions.</li>
+                            <li>Stage 2 (Formatting Engine): GPT-4.1 rewrote logs into readable reproduction steps.</li>
+                            <li>Sanitized PII data with regex before sending to AI services.</li>
+                            <li>🚀 Reduced average debugging time by 40% across engineering teams.</li>
+                        </ul>
+                    </div>
+
+                    <div class="item">
+                        <h3>RAG-based HR Query Assistant</h3>
+                        <p class="tech-stack">Python, FAISS, MiniLM, GPT</p>
+                        <ul>
+                            <li>Built a semantic Q&A system to answer HR policy questions over PDF documents.</li>
+                            <li>Extracted text → chunked → vectorized using MiniLM → GPT-generated answers with inline
+                                citations.</li>
+                            <li>Future roadmap: support for scanned images, HTML ingestion, multi-doc querying.</li>
+                        </ul>
+                    </div>
+
+                    <div class="item">
+                        <h3>Zerodha Trading API Server</h3>
+                        <p class="tech-stack">Node.js, Express</p>
+                        <ul>
+                            <li>Developed REST endpoints for order execution, MF tracking, and portfolio stats using
+                                Kite Connect API.</li>
+                            <li>Added session management, auto-P&L summarization, and webhook response logging.</li>
+                            <li>In-progress: real-time streaming via WebSockets and tax analytics module.</li>
+                        </ul>
+                    </div>
+
+                    <div class="item">
+                        <h3>MCP Stock Market Server</h3>
+                        <p class="tech-stack">Python, FastAPI</p>
+                        <ul>
+                            <span class="skill-tag">JavaScript</span>
+                            <span class="skill-tag">Nodejs</span>
+                            <span class="skill-tag">HTML</span>
+                            <span class="skill-tag">Spring Boot</span>
+                            <span class="skill-tag">Git</span>
+                            <span class="skill-tag">Machine Learning</span>
+                            <span class="skill-tag">Android Studio</span>
+                            <span class="skill-tag">Blockchain</span>
+                    </div>
+                </section>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
